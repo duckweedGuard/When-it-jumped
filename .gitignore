@@ -1,0 +1,38 @@
+# Large data — do NOT commit
+data/hosts/
+data/hosts/*.fasta
+*.zip
+*.tar.gz
+Dfam-RepeatMasker.lib*
+
+# RepeatMasker / RepeatModeler temp files
+rm_work/
+RM_*/
+*.cat
+*.masked
+*.tbl
+*.out
+*.out.gff
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# System
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Raw BLAST TSVs (we keep only .filtered.tsv.gz)
+*.tsv
+!results/blast/*.tsv.gz
+
+# Intermediate
+mafft.log
