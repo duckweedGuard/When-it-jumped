@@ -118,7 +118,7 @@ When-it-jumped/
 │   ├── fig3_summary.pdf / .png     ← Figure 3
 │   └── fig4_mds.pdf / .png         ← Figure 4
 │
-└── piggyBac_analysis/              ← Part II (collaborator)
+└── piggyBac_analysis/              ← Part II 
     ├── README.md
     ├── data/
     ├── scripts/
