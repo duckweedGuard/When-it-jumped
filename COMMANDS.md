@@ -211,7 +211,6 @@ Rscript plot_tree.R
 ## 6. Outputs
 
 ```
-~/ITMO/omics/
 ├── REPORT.md
 ├── COMMANDS.md
 └── data/viruses/
